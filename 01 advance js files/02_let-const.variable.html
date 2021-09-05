@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>var, let, cont variable</title>
+</head>
+
+<body>
+	<script type="text/javascript">
+		document.write("<h2>1) Var Variable</h2>");
+		var vr = "Hello";
+		var vr = " Mr. Nandkishore Jatav.";
+		var vars = "Hello how are you?";
+		vars = "I am also fine.";
+		document.write(vr + "<br>");
+		document.write(vars + "<br><br>");
+
+		// var a, b;
+		// a = 34;
+		// b = 323;
+		document.write("<h2>Global Scope</h2>");
+		if (false) {
+			var a = "Nandkishore";
+		} else {
+			var a = "Jatav";
+		}
+		document.write(a + "<hr>");
+		//***************************************
+
+		document.write("<h2>2) let Variable</h2>");
+		let lt = "Hello";
+		// let lt= " Mr. Nandkishore Jatav.";
+		let lets = "Hello how are you?";
+		lets = "I am also fine.";
+		document.write(lt + "<br>");
+		document.write(lets + "<br><br>");
+
+
+		document.write("<h2>Block scope</h2>");
+		if (true) {
+			let c = "Nandkishore";
+			document.write(c + "<hr>");
+		}
+
+		//****************************************
+
+		document.write("<h2>3)Const Variable</h2>");
+		const co = "Hello";
+		// var vr = " Mr. Nandkishore Jatav.";
+		const varss = "Hello how are you?";
+		// vars = "I am also fine.";
+		document.write(co + "<br>");
+		document.write(vars + "<br><br>");
+
+		document.write("<h2>Block Scope</h2>");
+		var a, b;
+		a = 789;
+		b = 907;
+		if (a <= b) {
+			let c = "true";
+			document.write(c + "<hr>");
+		} else {
+			let d = "false";
+			document.write(d + "<hr>");
+		}
+		//*****************************************
+	</script>
+</body>
+
+</html>

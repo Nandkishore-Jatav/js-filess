@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Arrow Functions</title>
+</head>
+
+<body>
+	<h2>Arrow Function</h2>
+	<script type="text/javascript">
+		var fullname = "Nandkishore Jatav";
+		document.write("<h4>(Nolmal function)</h4>");
+		function name() {
+			document.write(`Hello <b>${fullname}</b> welcome to my home.<br><hr>`);
+		}
+		name();
+		//*******************************
+		document.write("<h4>(Errow function)</h4>");
+		let errow = () => document.write(`Hello <b>${fullname}</b> welcome to my home.<br><hr>`);
+		errow();
+	</script>
+</body>
+
+</html>
